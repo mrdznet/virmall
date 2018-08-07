@@ -17,7 +17,7 @@ if(is_dir("install") && !file_exists("install/install.ok")){
 	exit();
 }
 // 定义应用目录
-define('APP_PATH', __DIR__ . '/wstmart/');
+define('APP_PATH', __DIR__ . '/application/');
 define('DS',DIRECTORY_SEPARATOR);
 // 加载基础文件
 require __DIR__ . '/thinkphp/base.php';
